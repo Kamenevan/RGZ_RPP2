@@ -1,8 +1,8 @@
 import os  # Импортируем модуль для работы с операционной системой
 import yaml  # Импортируем модуль для работы с YAML-файлами
 from sqlalchemy import text  # Импортируем функцию для работы с текстовыми SQL-запросами
-from DB.models import MigrationLog  # Импортируем модель для записи логов миграций
-from DB import db  # Импортируем объект базы данных
+from bd.models import MigrationLog  # Импортируем модель для записи логов миграций
+from bd import db  # Импортируем объект базы данных
 
 def run_migrations():
     # Получаем путь к файлу changelog.yaml
