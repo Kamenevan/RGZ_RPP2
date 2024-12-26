@@ -1,6 +1,6 @@
 from flask import Flask  # Импортируем класс Flask для создания веб-приложения
 from app.rgr import rgr  # Импортируем модуль rgr из приложения для регистрации в качестве Blueprint
-from DB import db  # Импортируем объект db для работы с базой данных
+from bd import db  # Импортируем объект db для работы с базой данных
 
 app = Flask(__name__)  # Создаем экземпляр приложения Flask
 
