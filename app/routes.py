@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify  # Импортируем необходимые модули из Flask
-from DB import db  # Импортируем объект базы данных
-from DB.models import Subscriptions  # Импортируем модель Subscription
+from bd import db  # Импортируем объект базы данных
+from bd.models import Subscriptions  # Импортируем модель Subscription
 
 # Создаем экземпляр класса Blueprint для организации маршрутов
 rgr = Blueprint("rgr", __name__)
