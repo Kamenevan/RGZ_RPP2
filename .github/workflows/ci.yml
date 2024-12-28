@@ -27,4 +27,4 @@ jobs:
           pip install bandit  #установка бандита
 
       - name: Check security # Шаг для проверки безопасности кода
-        run: bandit app/rgr.py app/migrator.py # Запуск Bandit для анализа указанных файлов на наличие уязвимостей
+        run: bandit app/routes.py app/migrator.py # Запуск Bandit для анализа указанных файлов на наличие уязвимостей
